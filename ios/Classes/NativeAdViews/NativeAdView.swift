@@ -38,7 +38,7 @@ class NativeAdView: GADUnifiedNativeAdView {
     
     let adIconView: UIImageView = {
         let imageView = UIImageView()
-        imageView.autoSetDimensions(to: CGSize(width: 40, height: 40))
+        imageView.autoSetDimensions(to: CGSize(width: 100, height: 100))
         return imageView
     }()
     
